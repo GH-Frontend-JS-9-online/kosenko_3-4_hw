@@ -1,0 +1,37 @@
+
+.subscription {
+    background-color: #f4f4f4;
+}
+
+.subscription__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 134px;
+}
+
+.button_size_m {
+    font-size: 13px;
+    width: 140px;
+    height: 42px;
+    border-radius: 21px;
+    background-color: #8d81ac;
+}
+
+.subscription__input {
+    width: 335px;
+    height: 42px;
+    border: none;
+    border-radius: 21px;
+    background-color: #fff;
+    font-size: 14px;
+    line-height: 17px;
+    color: #c8cbcf;
+}
+
+.subscription__text {
+    font-size: 30px;
+    line-height: 60px;
+    color: #635c73;
+    font-weight: 700;
+}

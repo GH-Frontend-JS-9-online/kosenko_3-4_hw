@@ -1,0 +1,98 @@
+
+.pricing {
+    background-image: url("../images/pricing_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pricing__block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 125px;
+}
+
+.pricing__list {
+    min-height: 461px;
+    min-width: 259px;
+    background-color: rgba(255, 255, 255, .1);
+    display: flex;
+    flex-direction: column;
+    transition: transform .15s;
+    &:hover {
+        transform: scale(1.2);
+        background-color: rgba(0,0,0,0.1607843137254902);
+        z-index: 1;
+        transition: transform .5s;
+    }
+}
+
+.pricing__name {
+    font-size: 24px;
+    line-height: 95px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    height: 95px;
+    background-color: rgba(255, 255, 255, .1);
+}
+
+.pricing__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 250px;
+}
+
+.pricing__price {
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.pricing__monht {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, .1);
+    font-weight: 700;
+}
+
+.pricing__license{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+} 
+
+.pricing__line {
+    width: 60px;
+    height: 5px;
+    background-color: #8d81ac;
+    margin: 0 auto;
+}
+
+.pricing__button {
+    width: 160px;
+    height: 42px;
+    border: none;
+    border-radius: 21px;
+    background-color: rgba(255, 255, 255, .1);
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    font-weight: 700;
+    margin: 30px auto;
+}
+
+.pricing__text {
+    padding-top: 96px;
+    padding-bottom: 50px;
+    font-size: 14px;
+    max-width: 920px;
+    color: #a291a5;
+    font-family: "Source Sans Pro";
+    text-align: center;
+    margin: 0 auto;
+}

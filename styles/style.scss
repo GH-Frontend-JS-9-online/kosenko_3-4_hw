@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+@import 'header';
+@import 'button';
+@import 'editor'; 
+@import 'social';
+@import 'testimonials';
+@import 'pricing';
+@import 'subscription';
+@import 'links';
+@import 'footer';
+@import 'responcive';

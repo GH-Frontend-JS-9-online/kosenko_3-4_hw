@@ -1,0 +1,99 @@
+
+.social {
+    padding-top: 85px;
+    padding-bottom: 75px;
+    min-height: 460px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social__author {
+    min-height: 85px;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.social__list {
+    list-style: none;
+    font-size: 24px;
+    line-height: 32px;
+    color: #635c73;
+    font-weight: 700;
+}
+
+.social__link {
+    font-size: 16px;
+    line-height: 32px;
+    color: #8d81ac;
+    text-decoration: none;
+}
+
+.social__img {
+    border-radius: 50%;
+    float: left;
+    padding-right: 25px;
+}
+
+.social__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 746px;
+}
+
+.social__text {
+    font-size: 20px;
+    line-height: 32px;
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+    text-align: center;
+    color: #323232;
+}
+
+.social__button {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-width: 870px;
+    margin: 0 auto;
+}
+
+.social__button_style {
+    width: 240px;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+    font-size: 21px;
+    line-height: 32px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 20px;
+}
+
+.social__button_github_style {
+    background-image: url("../images/github.png");
+    background-color: #f3f3f3;
+    color: #000;
+}
+
+.social__button_twi_style {
+    background-image: url("../images/twi.png");
+    background-color: #26a6d1;
+    color: #fff;
+}
+
+.social__button_fb_style {
+    background-image: url("../images/fb.png");
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.social__button_align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
