@@ -1,4 +1,4 @@
-# kosenko_3-4_hw
+# kosenko_hw_3-4
 
 Done GitHub Pages
 
